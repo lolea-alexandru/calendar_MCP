@@ -1,1 +1,33 @@
+# GCP credentials
 credentials_gcp.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+
+# Environment variables (Crucial for security)
+.env
+.env.test
+.env.production
+
+# Build outputs (if you compile your TypeScript later)
+dist/
+build/
+
+# Mac OS files
+.DS_Store
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
